@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE why3session PUBLIC "-//Why3//proof session v5//EN"
+"http://why3.lri.fr/why3session.dtd">
+<why3session shape_version="4">
+<prover id="0" name="CVC4" version="1.6-gnatprove" timelimit="1" steplimit="0" memlimit="0"/>
+<prover id="1" name="CVC4_CE" version="1.6-gnatprove" timelimit="1" steplimit="0" memlimit="0"/>
+<file name="../sfactor.mlw" proved="true">
+<theory name="Sfactor__package_def" proved="true">
+ <goal name="WP_parameter def" expl="VC for def" proved="true">
+ <transf name="split_goal_wp_conj" proved="true" >
+ </transf>
+ </goal>
+</theory>
+<theory name="Sfactor__smallest_factor__subprogram_def" proved="true">
+ <goal name="WP_parameter def" expl="VC for def" proved="true">
+ <transf name="split_goal_wp_conj" proved="true" >
+  <goal name="WP_parameter def.0" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="WP_parameter def.1" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" steps="61"/></proof>
+  </goal>
+  <goal name="WP_parameter def.2" expl="loop invariant init" proved="true">
+  <proof prover="0"><result status="valid" steps="22"/></proof>
+  </goal>
+  <goal name="WP_parameter def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="WP_parameter def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="14"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="224"/></proof>
+  </goal>
+  <goal name="WP_parameter def.5" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="WP_parameter def.6" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" steps="1121"/></proof>
+  </goal>
+  <goal name="WP_parameter def.7" expl="loop invariant preservation" proved="true">
+  <proof prover="0"><result status="valid" steps="148"/></proof>
+  </goal>
+  <goal name="WP_parameter def.8" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="14"/></proof>
+  </goal>
+  <goal name="WP_parameter def.9" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="355"/></proof>
+  </goal>
+  <goal name="WP_parameter def.10" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="WP_parameter def.11" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="14"/></proof>
+  </goal>
+  <goal name="WP_parameter def.12" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="14"/></proof>
+  </goal>
+  <goal name="WP_parameter def.13" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="24"/></proof>
+  </goal>
+  <goal name="WP_parameter def.14" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="13"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="376"/></proof>
+  <transf name="split_disj" >
+   <goal name="WP_parameter def.14.0" expl="postcondition">
+   <proof prover="1" obsolete="true"><result status="unknown" steps="106"/></proof>
+   </goal>
+   <goal name="WP_parameter def.14.1" expl="postcondition">
+   <proof prover="1" obsolete="true"><result status="failure"/></proof>
+   </goal>
+   <goal name="WP_parameter def.14.2" expl="postcondition">
+   <proof prover="1" obsolete="true"><result status="unknown" steps="331"/></proof>
+   </goal>
+  </transf>
+  </goal>
+  <goal name="WP_parameter def.15" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="28"/></proof>
+  </goal>
+  <goal name="WP_parameter def.16" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="168"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+</file>
+</why3session>

@@ -1,0 +1,72 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U selection%b		selection.adb		56beb0f8 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U selection%s		selection.ads		d18c3ad5 OO PK
+
+D ada.ads		20180525052300 76789da1 ada%s
+D a-ioexce.ads		20180525052259 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180525052300 119b8fb3 ada.streams%s
+D a-textio.ads		20180525052302 881db35a ada.text_io%s
+D interfac.ads		20180525052300 5ab55268 interfaces%s
+D i-cstrea.ads		20180525052259 e53d8b8e interfaces.c_streams%s
+D selection.ads		20190319225627 d18c3ad5 selection%s
+D selection.adb		20190319225626 0f2f3977 selection%b
+D system.ads		20180525052301 4635ec04 system%s
+D s-crtl.ads		20180525052259 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20180525052302 078245e4 system.file_control_block%s
+D s-parame.ads		20180525052302 48ec542b system.parameters%s
+D s-wchcon.ads		20180525052301 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 8|1r6 2r5
+X 4 a-textio.ads
+49K13*Text_IO 471e16 8|1w10 2r9
+X 7 selection.ads
+1K9*Selection 17l5 17e14 8|4b14 42l5 42t14
+3A9*Arr(integer)<integer> 5r25 11r31 8|6r31 26r31
+5V13*Sorted{boolean} 5>21 15s16
+5a21 A{3A9} 6r21 6r30 6r44 6r52 9r15
+6i16 I{integer} 6r46 6r54
+11U14*Sort 11=20 8|26b14 41l8 41t12
+11a20 A{3A9} 13r15 14r8 15r24 8|26b20 30r16 31r27 31r32 33r20 34m13 34r21
+. 35m13 37r46 38r56 39r38 39r46
+X 8 selection.adb
+6V13 Min_Index{integer} 6b13 6>24 9r16 10r35 24l8 24t17 31s17
+6a24 A{7|3A9} 8r15 9r36 10r22 10r33 10r56 14r14 15r16 16r13 16r20 19r40 20r49
+. 21r38 21r48
+10i17 I{integer} 10r58
+12i7 Min{integer} 14m7 16r22 17m13 19r33 21r40 23r14
+15i11 I{integer} 16r15 17r20 20r58
+20i44 K{integer} 21r50
+27i7 Min{integer} 31m10 32r13 34r23 35r15
+28i7 Tmp{integer} 33m13 35r23
+30i11 I{integer} 31r29 32r20 33r22 34r15 37r55
+37i41 K{integer} 38r49 39r40
+38i44 L{integer} 39r48
+
+QQ SPARKVERSION 2018 (20180524)
+GG EK_DIRECT_CALLS selection__sorted 0
+GG EK_GLOBALS selection__sorted local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS selection__sort 2 selection__min_index selection__sorted
+GG EK_GLOBALS selection__sort local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS selection__min_index 0
+GG EK_GLOBALS selection__min_index local TRUE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS selection 0
+GG EK_GLOBALS selection local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

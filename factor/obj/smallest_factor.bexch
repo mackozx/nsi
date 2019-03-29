@@ -1,0 +1,22 @@
+[MAPPING FILE]
+/tmp/GNAT-TEMP-000003.TMP
+[TOOLCHAIN VERSION]
+ada
+GNAT 2018
+[MAIN BASE NAME]
+smallest_factor
+[COMPILER PATH]
+/home/maciej/opt/GNAT/2018/bin/gcc
+[COMPILER LEADING SWITCHES]
+-c
+-x
+ada
+-gnatA
+[MAIN DEPENDENCY FILE]
+/home/maciej/nsi/factor/obj/smallest_factor.ali
+[DEPENDENCY FILES]
+[BINDING OPTIONS]
+gnatbind_prefix=
+[PROJECT FILES]
+/home/maciej/nsi/factor/factor.gpr
+20190326165053

@@ -1,0 +1,70 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U selection%b		selection.adb		56beb0f8 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U selection%s		selection.ads		d18c3ad5 EE NE OO PK
+
+D ada.ads		20180525052300 76789da1 ada%s
+D a-except.ads		20180525052301 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180525052259 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180525052300 119b8fb3 ada.streams%s
+D a-tags.ads		20180525052302 491b781d ada.tags%s
+D a-textio.ads		20180525052302 881db35a ada.text_io%s
+D a-unccon.ads		20180525052301 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180525052300 5ab55268 interfaces%s
+D i-cstrea.ads		20180525052259 e53d8b8e interfaces.c_streams%s
+D selection.ads		20190314211340 d18c3ad5 selection%s
+D selection.adb		20190319223347 0f2f3977 selection%b
+D system.ads		20180525052301 4635ec04 system%s
+D s-crtl.ads		20180525052259 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180525052301 54135002 system.exception_table%s
+D s-ficobl.ads		20180525052302 078245e4 system.file_control_block%s
+D s-parame.ads		20180525052302 48ec542b system.parameters%s
+D s-secsta.ads		20180525052301 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180525052300 a7318a92 system.soft_links%s
+D s-stache.ads		20180525052302 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180525052301 09bd3940 system.standard_library%s
+D s-stoele.ads		20180525052302 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180525052300 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180525052301 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180525052301 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 2r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 2r9
+X 10 selection.ads
+1K9*Selection 17l5 17e14 11|4b14 42l5 42t14
+3A9*Arr(integer)<integer> 5r25 11r31 11|6r31 26r31
+6i16 I{integer} 6r46 6r54
+11U14*Sort 11=20 11|26b14 41l8 41t12
+11a20 A{3A9} 13r15 14r8 15r24 11|26b20 30r16 31r27 31r32 33r20 34m13 34r21
+. 35m13 37r46 38r56 39r38 39r46
+X 11 selection.adb
+6V13 Min_Index{integer} 6b13 6>24 9r16 10r35 24l8 24t17 31s17
+6a24 A{10|3A9} 8r15 9r36 10r22 10r33 10r56 14r14 15r16 16r13 16r20 19r40
+. 20r49 21r38 21r48
+10i17 I{integer} 10r58
+12i7 Min{integer} 14m7 16r22 17m13 19r33 21r40 23r14
+15i11 I{integer} 16r15 17r20 20r58
+20i44 K{integer} 21r50
+27i7 Min{integer} 31m10 32r13 34r23 35r15
+28i7 Tmp{integer} 33m13 35r23
+30i11 I{integer} 31r29 32r20 33r22 34r15 37r55
+37i41 K{integer} 38r49 39r40
+38i44 L{integer} 39r48
+

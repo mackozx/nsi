@@ -1,0 +1,7 @@
+20190326171345
+-c
+-x
+ada
+-gnatA
+-gnatc
+-gnates=/home/maciej/nsi/factor/obj/gnatprove/34b4518c.tmp

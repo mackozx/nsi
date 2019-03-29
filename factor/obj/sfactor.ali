@@ -1,0 +1,29 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U sfactor%b		sfactor.adb		35e68657 NE OO PK IL
+
+U sfactor%s		sfactor.ads		56e8525a EE NE OO PK IL
+
+D sfactor.ads		20190326170237 56e8525a sfactor%s
+D sfactor.adb		20190326171337 630ed40d sfactor%b
+D system.ads		20180525052301 4635ec04 system%s
+X 1 sfactor.ads
+1K9*sfactor 11l5 11e12 2|1b14 17l5 17t12
+3U11*Smallest_Factor 3=28 3<49 2|3b14 15l8 15t23
+3i28 N{positive} 5r10 7r4 7r21 8r4 9r36 2|4b7 9r13 10r42 11r62 14m7 14r12
+3i49 Factor{positive} 6r12 7r12 8r14 9r22 2|5b7 8m7 9r19 10r33 11r52 12m10
+. 12r20 14r16
+9i12 J{integer} 9r46
+X 2 sfactor.adb
+11i42 J{integer} 11r68
+

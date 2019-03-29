@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/maciej/nsi/factor/factor.gpr
+20190326165446
+[BOUND OBJECT FILES]
+/home/maciej/nsi/factor/obj/sfactor.o
+/home/maciej/nsi/factor/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/maciej/nsi/factor/obj/
+-L/home/maciej/nsi/factor/obj/
+-L/home/maciej/opt/GNAT/2018/lib/gcc/x86_64-pc-linux-gnu/7.3.1/adalib/
+-static
+-static-libgcc
+/home/maciej/opt/GNAT/2018/lib/gcc/x86_64-pc-linux-gnu/7.3.1/adalib/libgnat.a
+-ldl
